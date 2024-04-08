@@ -1,0 +1,27 @@
+.gallery-img {
+    border: 10px solid #db862d;
+    border-radius: 50px;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    display: block;
+  }
+  
+  .gallery-desc {
+    border: 10px solid #db862d;
+    border-radius: 50px;
+    background-color: rgba(247, 227, 139, 0.706);
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    font-size: xx-large;
+    font-family: Monaco;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img-container {
+    display: inline-block;
+    padding: 10px;
+  }
