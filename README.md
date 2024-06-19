@@ -1,3 +1,5 @@
+![simple art gallery gif](https://github.com/daaimah123/Simple_Art_Gallery/assets/41805952/e0aeb245-6b4c-4dc2-b80d-a7a59d0ed40a)
+---
 1. CSS Techniques and Creativity
 Effective use of advanced CSS features, including Grid, Flexbox, transformations, animations, and transitions.
 Creativity in designing visually appealing and engaging art gallery layouts.
@@ -30,6 +32,4 @@ What you would add/change if you had more time
 Clear and concise documentation explaining the code.
 Any external libraries or APIs used are properly documented.
 Instructions on how to set up and run the application are provided.
-
-![simple art gallery gif](https://github.com/daaimah123/Simple_Art_Gallery/assets/41805952/e0aeb245-6b4c-4dc2-b80d-a7a59d0ed40a)
 

@@ -6,8 +6,6 @@ import Button from '@material-ui/core/Button';
 import FormControl from '@material-ui/core/FormControl';
 import TextField from '@material-ui/core/TextField';
 
-// import AddIcon from '@material-ui/icons/Add';
-
 function GalleryForm({ addData }) {
   const [imagePath, setImagePath] = useState('');
   const [imageDescription, setImageDescription] = useState('');
@@ -16,6 +14,7 @@ function GalleryForm({ addData }) {
     <FormControl
       onSubmit={() => {
         {
+          e.preventDefault(); 
           addData(imagePath, imageDescription);
         }
       }}
@@ -23,20 +22,20 @@ function GalleryForm({ addData }) {
       <TextField
         placeholder="Image URL"
         inputProps={{ 'aria-label': 'description' }}
+        value={imagePath}
         onChange={(event) => {
-          // console.log(imagePath);
           setImagePath(event.target.value);
         }}
       ></TextField>
       <TextField
         placeholder="Image Description"
         inputProps={{ 'aria-label': 'description' }}
+        value={imageDescription}
         onChange={(event) => {
-          // console.log(imageDescription);
           setImageDescription(event.target.value);
         }}
       ></TextField>
-      <Button variant="contained" color="primary">
+      <Button variant="contained" color="primary" >
         Submit
       </Button>
     </FormControl>
